@@ -1,0 +1,19 @@
+.container{
+	padding: 15px 45px 5px 45px;
+}
+
+.col{
+	height: 150px;
+	border: 1px solid white;
+	box-shadow: 0px 0px 4px 4px white;
+}
+header.col{
+	text-align: center;
+	color: white;
+	font-family: 'Shadows Into Light', cursive;
+	height: 250px;
+}
+h1{
+	margin-top: 60px;
+	margin-bottom: 5px;
+}
