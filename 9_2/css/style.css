@@ -1,0 +1,52 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	outline: 0px;
+	border: 0px;
+}
+.container{
+ 	
+	background-color: white;
+	color: white;
+	font-family: sans-serif;
+}
+
+.col{
+	height: 50px;
+	outline: 1px solid white;
+	/*margin: 1px;*/
+	
+}
+.middle{
+	margin-top: 25px;
+}
+.margin{
+
+	margin-right: 10px;
+	height: 150px;
+}
+.nav{
+	height: 650px;
+}
+header.col{
+	margin: 10px;
+	text-align: center;
+	color: white;
+	height: 80px;
+}
+
+.sized{
+	width: 125%;
+}
+.four{
+	width: 108%;
+}
+.three{
+	width: 150%; 
+}
+.row{
+	height: 60px;
+}
+h5{
+	color: #212121;
+}
