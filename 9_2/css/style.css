@@ -4,49 +4,72 @@
 	outline: 0px;
 	border: 0px;
 }
-.container{
- 	
-	background-color: white;
-	color: white;
+.wrapper{
+	background-color: #fafafa;
+	width: 90%;
+	margin: 0 auto;
 	font-family: sans-serif;
 }
 
 .col{
 	height: 50px;
-	outline: 1px solid white;
+	outline: 1px solid #fafafa;
 	/*margin: 1px;*/
 	
 }
-.middle{
-	margin-top: 25px;
-}
 .margin{
-
-	margin-right: 10px;
 	height: 150px;
+	border-right: 10px solid #fafafa;
+	text-align: center;
+	color: white;
+	display: table-cell;
+	vertical-align: middle;
+}
+.main{
+	height: 150px;
+	border-right: 10px solid #fafafa;
 }
 .nav{
 	height: 650px;
 }
-header.col{
-	margin: 10px;
+.header{
 	text-align: center;
-	color: white;
+	border-right: 10px solid #fafafa;
 	height: 80px;
+	padding-top: 15px!important;
 }
 
-.sized{
-	width: 125%;
+.flex-container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 15px 0px 0px! important;
+	margin-top: 15px;
+}
+.flex-container div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: calc(99%/7);
+	height: 100%;
+	outline: 1px solid #fafafa;
+	background-color: #616161;
+	color: white;
+}
+.flex-container a{
+	padding-right: 15px;
 }
 .four{
-	width: 108%;
+	width: 112%;
 }
-.three{
-	width: 150%; 
-}
+
 .row{
 	height: 60px;
 }
-h5{
-	color: #212121;
+h4{
+	color: #424242;
+}
+.middle{
+	position: relative;
+	top: 45%; 
 }
